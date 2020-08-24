@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/AKM07/AKM07.github.io.git
+	branch = master

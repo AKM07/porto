@@ -1,0 +1,298 @@
+# Page settings
+
+baseURL = "http://akm07.github.io/"
+languageCode = "id"
+title = "Ari Kusuma Maulana"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Ari Kusuma Maulana"
+        tagline = "Mobile Developer"
+        avatar = "avatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Malang, Indonesia"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+6285932229017"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "arikusuma.maulana@gmail.com"
+        
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Teknis"
+        [[params.skills.list.items]]
+        details = "Java"
+        [[params.skills.list.items]]
+        details = "Kotlin"
+        [[params.skills.list.items]]
+        details = "Dart/Flutter"
+        [[params.skills.list.items]]
+        details = "C#"
+        [[params.skills.list.items]]
+        details = "Xamarin"
+        [[params.skills.list.items]]
+        details = "MySql/Sqlite"
+        [[params.skills.list.items]]
+        details = "REST API"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Team/Individual worker"
+        [[params.skills.list.items]]
+        details = "Good Time Management"
+        [[params.skills.list.items]]
+        details = "Good Team Leader"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Software Engineering"
+        university = "SMK PGRI 3 Malang"
+        dates = "2012 - 2015"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Indonesia"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Inggris"
+        level = "Professional"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Gaming"
+        [[params.interests.list]]
+        name = "Movie"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "I have 5 years of experience as a Mobile Developer, and have created Mobile applications including overcoming related problems like bugs, optimization and errors. Experienced in integration with the Rest API. I can work individually or teams. I am still developing my existing abilities and enjoy learning new things. I am the type of worker who will continue to do the job until it's done according to the targets that I or my teammates have set."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Mobile Developer"
+        dates = "2018 - Sekarang"
+        company = "PT. Omega Teknologi Indonesia"
+        details = "Responsible for working on the Android Native project and also Cross Platform. Examples of projects that I am working on here are the OmegaPOS application and the Loyalty Apps application for customers.."
+        
+
+        [[params.experience.list]]
+        title = "Android Developer"
+        dates = "2016 - 2018"
+        company = "PT. Funindo Solusi Niaga"
+        details = "Responsible for creating and designing an Android project. Examples of some of the applications that I am working on here are the PPOB application, Hajj and Umrah ordering applications, POS for cafes and restaurants."
+
+        [[params.experience.list]]
+        title = "Android Developer"
+        dates = "2015 - 2016"
+        company = "Meruvian"
+        details = "Responsible for creating and designing an Android project. Examples of some of the applications that I do here are DISC Psychological Test, POS, Kominfo Digital Signer."
+
+        [[params.experience.list]]
+        title = "IT Staff, API Developer, WebApp Developer"
+        dates = "2014"
+        company = "PT. Bogor Anggana Cendekia"
+        details = "Disini saya masih menjadi siswa magang di Meruvian dan mengerjakan project Botani Views webapp yang menggunakan Spring. Dan saya disini menjadi IT Staff yang memiliki tugas maintenance server, IT support, API dan Web development."
+
+        [[params.experience.list]]
+        title = "Web App dan API Developer"
+        dates = "2013 - 2014"
+        company = "Meruvian"
+        details = "Interns, My responsibility is to build webApp and API using Spring."
+
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Botani Views"
+        meta = "2014"
+        tagline = "Web application uses Spring which is used to monitor the condition of the mall, mall management, and the mall's social media."
+
+        [[params.projects.list]]
+        title = "Meruvian D.I.S.C & Cyber D.I.S.C"
+        meta = "2015"
+        tagline = "Android application for psychological tests D.I.S.C."
+
+        [[params.projects.list]]
+        title = "Kominfo Digital Signer (Sivion)"
+        meta = "2016"
+        tagline = "Android application Digital signature in collaboration with Kominfo."
+		
+		[[params.projects.list]]
+        title = "FXPC"
+        meta = "2016"
+        tagline = "Android application for Fuji Xerox which functions to order Fuji Xerox products, re-labeling, transfer stock between warehouses and is used for tracking products of Fuji Xerox products."
+
+		[[params.projects.list]]
+        title = "Posquity POS"
+        meta = "2017"
+        tagline = "POS application specifically for Café and Restaurant. In addition to the buying and selling feature through the cashier, the Posquity application also includes stock management such as Purchase Orders, Stock Transfers, Stock Opname."
+		
+		[[params.projects.list]]
+        title = "Geniora"
+        meta = "2018"
+        tagline = "Android application for materials, tests, exams for elementary to junior high school children."
+		
+		[[params.projects.list]]
+        title = "Funapps"
+        meta = "2018"
+        tagline = "Android application for sharing content to social media about PT.Funindo Solusi Niaga products and also online shop products from PT.Funindo Solusi Niaga. Url Playstore : https://play.google.com/store/apps/details?id=com.myfunbizz"
+
+		[[params.projects.list]]
+        title = "LNM"
+        meta = "2018"
+        tagline = "Android application of marketing learning media in the form of video, audio and book (PDF)."
+		
+		[[params.projects.list]]
+        title = "Omega POS & Loyalty Apps"
+        meta = "Currently"
+        tagline = "POS application and supporting loyalty application for customers at PT.Omega Teknologi Indonesia. Url Playstore : https://play.google.com/store/apps/details?id=gbs.omegabiz.cloud"
+		
+		[[params.projects.list]]
+        title = "OAK Capital"
+        meta = "Currently"
+        tagline = "Apps for brokers between investors and investees. Url Playstore :https://play.google.com/store/apps/details?id=com.omegasoft.oakcapital"
+
+
+
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Acara"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "https://github.com/AKM07"
+        title = "AKM07"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "https://www.linkedin.com/in/ari-kusuma-maulana-686b82156/"
+        title = "Ari Kusuma Maulana"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "https://twitter.com/ari_akm"
+        title = "@ari_akm"
